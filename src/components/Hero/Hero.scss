@@ -1,15 +1,30 @@
 .hero{
     width: 100%;
-    margin: 60px 0px;
+    margin: 70px 0px 130px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 997px){
+        &{
+            align-items: start;
+        }
+    }
 
 }
 .hero__content{
-    max-width: 50%;
+    width: 50%;
     font-weight: 600;
     font-size: 1.5em;
+    @media (max-width: 997px){
+        &{
+            width: 80%;
+        }
+    }
+    @media (max-width: 767px){
+        &{
+            width: 100%;
+        }
+    }
 }
 .hero__title{
     & .hero__hello{
@@ -26,7 +41,12 @@
         font-weight: 800;
         font-size: 3em;
         & p:last-child{
-            margin: 0px 0px 0px 3.25em;
+            margin: 0px 0px 0px 28%;
+            @media (max-width: 767px){
+                &{
+                    margin: 0;
+                }
+            }
         }
     }
 }
@@ -41,9 +61,20 @@
     align-items: center;
     gap: 2em;
     & .avatar{
+        width: 100%;
         border-radius: 50%;
         overflow: hidden;
         box-shadow: 13px 13px 20px rgb(0, 186, 186);
+    }
+    @media (max-width: 997px){
+        &{
+            width: 30%;
+        }
+    }
+    @media (max-width: 767px){
+        &{
+            display: none;
+        }
     }
 }
 .hero__links{

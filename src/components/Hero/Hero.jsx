@@ -9,7 +9,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="hero">
+      <div className="hero" data-aos="fade-left">
         <div className="hero__content">
           <div className="hero__title">
             <div className="hero__hello">

@@ -1,12 +1,15 @@
 {
     "home-menu":"Home",
     "about-menu":"About",
-    "skills-menu":"Skills",
     "contact-menu":"Contact",
     "cv":"Download CV",
     "hero-hi":"Hi, I am",
     "hero-name":"Krasnikov Ivan",
     "hero-proff-1":"Front-End",
     "hero-proff-2":"Developer",
-    "hero-more":"My goal is to create beautiful and intuitive web applications. I am fluent in modern tools and technologies, and I am always ready to learn new ones in order to keep abreast of the latest web development trends."
+    "hero-more":"My goal is to create beautiful and intuitive web applications. I am fluent in modern tools and technologies, and I am always ready to learn new ones in order to keep abreast of the latest web development trends.",
+    "about-title":"About Me",
+    "about-text":"I am a frontend developer with over a year of experience. I have successfully completed numerous private projects on freelance platforms.",
+    "contact-title":"Let's Work Together!",
+    "contact-subtitle":"You can reach out to me using any of the convenient methods listed below."
 }
