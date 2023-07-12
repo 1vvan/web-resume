@@ -21,7 +21,7 @@ const Contact = () => {
           <li className="contact__item">
             <img src={GmailIcon} alt="" />
             <a
-              href="mailto:example@example.com"
+              href="mailto:krasnikov09122004@gmail.com"
               rel="noreferrer"
               target="_blank"
             >
